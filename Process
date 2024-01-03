@@ -1,0 +1,17 @@
+# create a google sheet with columns DAT,TIME,EXERCISE,DURATION,CALORIES
+# go to https://www.nutritionix.com/business/api to get your nutrition API key,
+    YOU MAY NEED TO SIGN UP and get your ID and Keys
+
+3. use the neccessay parameters to post to json file.
+4. setup you google sheet with sheety
+5. use the sheety API documentation to post to the doc
+
+
+"""do encrytpion after everything using environmental variable:::
+1 . import os
+2.go to main>>>edit configuration>>>enivronmenetal vriable>>>>[set the key and value) apply>>> ok.
+
+3. come to your main.py, do name = os.environ["USERNAME"]
+        lets assume you have PASSWORD = "NJHNJHFJLJFBDJBKD"
+        go to 2. copy the password in 3. and create a value . now put those values
+        tat you created into os.environ['PASS']
